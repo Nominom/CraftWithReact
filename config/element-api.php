@@ -112,7 +112,7 @@ return [
 						'featureImage' => $featureImage? $featureImage->getUrl() : null,
 					];
 				},
-				'elementsPerPage' => 5,
+				'elementsPerPage' => 8,
 				'meta' => [
 					'type' => 'bloglist'
 				],

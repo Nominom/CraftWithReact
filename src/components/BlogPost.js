@@ -17,7 +17,7 @@ const BlogPost = ({ blog }) => {
 				: <></>
 			}
 
-			<div className="w-full py-4 px-16">
+			<div className="w-full py-4 sm:px-4 lg:px-16">
 				<header className="mb-8 text-center">
 					<h1 className="bold text-4xl">{blog.title}</h1>
 					<time className="bold text-lg text-indigo-700" dateTime={blog.date_published}>
