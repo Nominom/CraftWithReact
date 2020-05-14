@@ -64,7 +64,7 @@ const PostContainer = styled.div`
 
 const PostContent = ({ content }) => {
 	return (
-		<PostContainer className="w-full h-full">
+		<PostContainer className="w-full">
 			{content.map((block, i) => {
 				switch (block.type) {
 					case "text":

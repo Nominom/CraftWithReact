@@ -15,7 +15,7 @@ const Page = ({ page }) => {
 			case 'page':
 				return <PostContent content={page.content || []}/>
 			default:
-				console.logerror('Unknown content type.')
+				console.error('Unknown content type.')
 		}
 	}
 	return (
